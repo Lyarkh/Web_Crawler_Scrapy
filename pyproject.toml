@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "web-crawler-scrapy"
+version = "0.1.0"
+description = ""
+authors = ["Lyarkh <lcemanuel.emanuel@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_crawler_scrapy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+pycodestyle = "^2.10.0"
+bandit = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
